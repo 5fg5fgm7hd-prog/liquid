@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: liquid-glass-app
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
